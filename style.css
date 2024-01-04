@@ -34,7 +34,7 @@ h2{
 }
 #highlight{
     display: grid;
-    grid-template-columns: 65px 65px 1fr;
+    grid-template-columns: 1fr 1fr 5fr;
 }
 .circle{
     border: solid white ;
@@ -44,13 +44,13 @@ h2{
     object-fit: cover;
 }
 .highrect{
-    width: 50px;
-    height: 50px;
+    width: 12vw;
+    height: 12vw;
 
 }
 #profile{
-    width: 80px;
-    height: 80px;
+    width: 15vw;
+    height: 15vw;
 }
 .high_text{
     text-align: center;
@@ -65,35 +65,53 @@ h2{
 }
 #profile-grid{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 1fr 4fr;
     margin-bottom: 10px;
+    
 }
 .pro_img{
     margin-top: 15px;
 }
 #searcher{
-    height: 30px;
-    margin-top: 10px;
+    height: 8vw;
+    margin-top: 1vw;
+
+    min-height: 5vw;
 }
 #main{
     display: grid;
-    grid-template-columns: 55px 1fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
   
-    height: 50px;
+    height: 9vw;
 }
 #f1{
     display: grid;
     grid-template-rows: 3fr 1fr;
-    height: 80px;
+    height: 17vw;
     
 }
 #ccunij{
-    font-size: 30px;
+    font-size: 7vw;
     margin-top: 10px;
     font-weight: bold;
 
 }
 #insta{
     margin-top: 5px;
+    width: 25vw;
+}
+#intro{
+    font-size: 2.8vw;
 }
 
+#a{
+    width: 10vw;
+}
+#ing{
+    display: grid;
+    grid-template-rows: 1fr fr;
+    
+}
+.ab{
+    font-size: 3.5vw;
+}
