@@ -1,117 +1,138 @@
-h2{
-    color:black;
+h2 {
+    color: black;
 }
 
-    
 
-.thumbnail_grid{
+
+.thumbnail_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.thumbnail{
+
+.thumbnail {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
     padding: auto;
 }
-.stat_bar{
+
+.stat_bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-.stat{
-    
-    border-top:solid;
-    border-bottom:solid;
+
+.stat {
+
+    border-top: solid;
+    border-bottom: solid;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-#highlight{
+
+#highlight {
     display: grid;
     grid-template-columns: 1fr 1fr 5fr;
 }
-.circle{
-    border: solid white ;
+
+.circle {
+    border: solid white;
     border-radius: 50%;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.highrect{
+
+.highrect {
     width: 12vw;
     height: 12vw;
 
 }
-#profile{
+
+#profile {
     width: 15vw;
     height: 15vw;
 }
-.high_text{
+
+.high_text {
     text-align: center;
 }
-.high_margin{
+
+.high_margin {
     margin-left: auto;
     margin-right: auto;
 }
-.thumb_rect{
+
+.thumb_rect {
     width: 100%;
     height: 100%;
 }
-#profile-grid{
+
+#profile-grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 10px;
-    
+
 }
-.pro_img{
+
+.pro_img {
     margin-top: 15px;
 }
-#searcher{
+
+#searcher {
     height: 8vw;
     margin-top: 1vw;
 
     min-height: 5vw;
 }
-#main{
+
+#main {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-  
+
     height: 9vw;
 }
-#f1{
+
+#f1 {
     display: grid;
     grid-template-rows: 3fr 1fr;
     height: 17vw;
-    
+
 }
-#ccunij{
+
+#ccunij {
     font-size: 7vw;
     margin-top: 10px;
     font-weight: bold;
 
 }
-#insta{
+
+#insta {
     margin-top: 5px;
     width: 25vw;
 }
-#intro{
+
+#intro {
     font-size: 2.8vw;
 }
 
-#a{
+#a {
     width: 10vw;
 }
-#ing{
+
+#ing {
     display: grid;
     grid-template-rows: 1fr fr;
-    
+
 }
-.ab{
+
+.ab {
     font-size: 3.5vw;
 }

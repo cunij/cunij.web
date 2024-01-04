@@ -6,20 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <script>
-        console.log("tex")
-        alert("오늘 기분은 어떠신가요")
-        function coloring(){
-            let buttn=document.querySelector("button")
-            buttn.style.backgroundColor="red"
-        }
-    </script>
-
-
-
 
     <div id="ing">
         <div id="main">
@@ -38,17 +28,18 @@ Z8q9aiVgg.PNG.gaogirl/instagram_PNG9.png?type=w800" width="50" id="a" />
                 <img src="1.jpg" class="circle pro_img" id="profile">
             </div>
             <div id="f1">
-                <div id="ccunij">ccunij<br></div>
-                <button class="ab" onclick="coloring()">프로필 편집<br></button>
+                <div id="ccunij"><span id="name">ccunij</span><br></div>
+                <button class="ab" id="p1">프로필 편집<br></button>
             </div>
         </div>
     </div>
 
     <div id="intro">
-        <strong>김민석</strong><br>
-        프로그래머<br>
-
-        <a href="https://github.com/cunij" id="link">https://github.com/cunij</a><br><br>
+        <strong id="userinfo">김민석</strong><br>
+        <span id="summary">프로그래머</span><br>
+        
+            <a href="https://github.com/cunij" >https://github.com/cunij</a><br><br>
+        
     </div>
     <div id="highlight">
         <div class="high_margin">
